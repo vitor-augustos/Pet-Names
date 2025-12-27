@@ -61,19 +61,32 @@ div.container{
     display: flex;
     transform: scaleX(-1);
     position: absolute;
-    bottom: -55px;
+    bottom: -59px;
     left: 0;
     z-index: 10;
     justify-content: flex-start;
 }
 
 div.content{
-    margin: 40px;
+    margin: 20px 40px 20px 40px;
     flex: 1;
 }
 
 .content h1{
     font-size: 80px;
+}
+
+.carrossel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: calc(100% - 230px);
+    background-color: var(--cor4);
+    border-radius: 15px;
+    left: 250px;
+    bottom: -25px;
+    position: relative;
 }
 
 footer{
