@@ -28,10 +28,11 @@ body{
     width: 100vw;
     background-color: var(--cor3);
     font-family: "Roboto Mono", monospace;
+    overflow: hidden;
 }
 
 nav{
-    font-size: 12px;
+    font-size: 10px;
     margin: 20px 30px 20px 30px;
     display: flex;
     border-radius: 15px;
@@ -53,6 +54,17 @@ div.container{
     border-radius: 15px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: 25px;
+    position: relative;
+}
+
+.images {
+    display: flex;
+    transform: scaleX(-1);
+    position: absolute;
+    bottom: -55px;
+    left: 0;
+    z-index: 10;
+    justify-content: flex-start;
 }
 
 div.content{
@@ -68,7 +80,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 60px;
+    height: 100px;
     width: 100%;
     background-color: var(--cor5);
     color: var(--cor2);
