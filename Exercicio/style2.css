@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: url('../src/images/clouds.jpg') no-repeat center center fixed;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    background-color: #fff;
+    height: 450px;
+    width: 400px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 10px #777;
+    transition: all .3s ease;
+}
+
+.container:hover{
+    transform: scaleY(1.02);
+}
+
+input{
+    height: 35px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px #ddd;
+    background-color: #f7f7f7;
+    margin-right: 7px;
+    transition: all .3s ease;
+}
+
+input:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+button{
+    height: 35px;
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px #777;
+    background-color: rgb(255, 71, 71);
+    color: #fff;
+    font-weight: bold;
+    transition: all .3s ease;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+li{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    width: 50%;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+img{
+
+    margin: 2.5px 0px 0px 10px;
+    height: 25px;
+    transition: all .3s ease;
+}
+
+img:hover{
+    cursor: pointer;
+    transform: scale(1.1) rotate(90deg);
+}

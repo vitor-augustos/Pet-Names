@@ -1,0 +1,84 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: url('./images/clouds.jpg') no-repeat center center fixed;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffffaa;
+    height: 450px;
+    width: 320px;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 10px #777;
+    transition: all .3s ease;
+}
+
+.container h2{
+    text-align: center;
+}
+
+.container:hover{
+    transform: scaleY(1.02);
+}
+
+#Forgot{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+}
+
+#Pet-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100px;
+}
+
+#Pet-icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    margin-top: 10px;
+    height: 35px;
+    width: auto;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px #ddd;
+    background-color: #f7f7f7;
+    margin-right: 7px;
+    transition: all .3s ease;
+    border: #77777740 1px solid;
+    padding: 0px 12px;
+}
+
+button{
+    height: 45px;
+    width: auto;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px #777;
+    background-color: #000000;
+    color: #fff;
+    font-weight: bold;
+    transition: all .3s ease;
+}
+
+#LoginBtn{
+    color: #fff;
+    text-decoration: none;
+}
